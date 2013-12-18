@@ -1,0 +1,3 @@
+[submodule "lib/libvector"]
+	path = lib/libvector
+	url = https://github.com/xcvista/libvector
