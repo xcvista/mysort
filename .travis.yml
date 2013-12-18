@@ -1,0 +1,13 @@
+language: c
+compiler:
+  - gcc
+  - clang
+env:
+  - DEBUG=YES
+  - DEBUG=NO
+before_script:
+  - sudo ln -sf bash /bin/sh
+script:
+  - make ci
+after_script:
+  - make clean
