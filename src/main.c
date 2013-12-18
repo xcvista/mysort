@@ -71,7 +71,7 @@ int main(int argc, char **argv)
         exit(0);
     }
 
-    vector_sort(vec, strverscmp);
+    vector_sort(vec, (comparator_t)strverscmp);
 
     char *obj = NULL;
 
